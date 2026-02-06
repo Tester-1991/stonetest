@@ -58,7 +58,7 @@ const config = {
         items: [
           
           {
-            to: '/docs/0',
+            to: '/docs/python/python基础/1',
             label: '📘文档',
             position: 'left',
           },
@@ -74,7 +74,7 @@ const config = {
               },
               {
                 label: '文档',
-                to: '/docs/0',
+                to: '/docs/python/python基础/1',
               },
 //              {
 //                label: 'AIChatOS',
@@ -105,7 +105,63 @@ const config = {
 
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} StoneTest`,
+        links: [
+          {
+            title: '学习资源',
+            items: [
+              {
+                label: 'Python 基础',
+                to: '/docs/python/python基础/1',
+              },
+              {
+                label: '自动化测试',
+                to: '/docs/python/python基础/1',
+              },
+              {
+                label: '接口测试',
+                to: '/docs/python/python基础/1',
+              },
+            ],
+          },
+          {
+            title: '关注我',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/wxhzhwxhzh',
+              },
+              {
+                label: 'CSDN',
+                href: '#',
+              },
+              {
+                label: '知乎',
+                href: '#',
+              },
+            ],
+          },
+          {
+            title: '关于',
+            items: [
+              {
+                label: '关于博主',
+                to: '/',
+              },
+              {
+                label: '联系方式',
+                to: '/',
+              },
+            ],
+          },
+        ],
+        copyright: `<div style="text-align: center; padding: 1rem 0;">
+          <div style="margin-bottom: 0.5rem; font-size: 0.9rem;">
+            <strong>StoneTest 软件测试教程</strong> · 博主：石岩
+          </div>
+          <div style="font-size: 0.85rem; color: #888;">
+            Copyright © ${new Date().getFullYear()} 石岩 (StoneTest) | 用心分享，共同成长
+          </div>
+        </div>`,
       },
 
       prism: {
