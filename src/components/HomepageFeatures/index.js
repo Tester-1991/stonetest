@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '系统化的测试教程',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        从功能测试到自动化测试，从接口测试到性能测试，
+        为你提供循序渐进的学习路径，助你快速入门软件测试领域。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '实战驱动学习',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        结合真实项目案例讲解测试技术，分享企业级测试方案与最佳实践，
+        让你学以致用，快速提升职场竞争力。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '持续更新迭代',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        紧跟测试技术发展趋势，持续更新内容涵盖 AI 测试、云测试等前沿领域，
+        与测试工程师共同成长，打造高质量的学习社区。
       </>
     ),
   },

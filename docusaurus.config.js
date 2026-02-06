@@ -3,8 +3,8 @@ const { themes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IT知识学习网站',
-  tagline: '编程教程学习平台',
+  title: 'StoneTest测试',
+  tagline: '专注于自动化测试、测试开发、AI测试',
   favicon: 'img/favicon.ico',
 
   url: 'https://your-domain.com',
@@ -50,7 +50,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'IT知识学习网站',
+        title: 'StoneTest',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -70,16 +70,16 @@ const config = {
             items: [
               {
                 label: 'github',
-                to: 'https://github.com/wxhzhwxhzh',
+                to: 'https://github.com/Tester-1991',
               },
               {
                 label: '文档',
                 to: '/docs/0',
               },
-              {
-                label: 'AIChatOS',
-                href: 'https://cht18.aichatosclx.com/',
-              },
+//              {
+//                label: 'AIChatOS',
+//                href: 'https://cht18.aichatosclx.com/',
+//              },
 
             ],
           },
@@ -105,7 +105,7 @@ const config = {
 
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} IT知识学习网站`,
+        copyright: `Copyright © ${new Date().getFullYear()} StoneTest`,
       },
 
       prism: {
