@@ -1,6 +1,6 @@
 ---
 id: 1
-title: abs()
+title: print()
 sidebar_position: 1
 ---
 `print()` 是 Python 中最基础、最常用的内置函数，用于将指定的内容输出到“标准输出设备”（通常是屏幕/控制台）。
