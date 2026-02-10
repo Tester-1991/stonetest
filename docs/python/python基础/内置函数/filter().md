@@ -1,6 +1,6 @@
 ---
 id: 5
-title: abs()
+title: filter()
 sidebar_position: 5
 ---
 `filter` 是 Python 的内置高阶函数，顾名思义，它的作用是 **“过滤”**。它用于遍历一个序列，根据指定的条件（函数）筛选出符合要求的元素，并丢弃不符合要求的元素。
